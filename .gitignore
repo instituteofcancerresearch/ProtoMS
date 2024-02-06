@@ -52,6 +52,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+tmp_env/
 
 # mypy
 .mypy_cache/
@@ -61,4 +62,7 @@ dmypy.json
 # Ruff linting
 /.ruff_cache/
 
-tmp_venv/
+# Build artefacts
+protoms3
+src/idme.inc
+src/sep.inc
