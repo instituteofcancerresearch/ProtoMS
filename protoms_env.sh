@@ -43,3 +43,6 @@ fi
 echo "PROTOMSHOME: $PROTOMSHOME"
 echo "AMBERHOME: $AMBERHOME"
 echo "PYTHON: $(which python)"
+
+# Add protoms path to path
+export PATH=$PATH:$PROTOMSHOME
